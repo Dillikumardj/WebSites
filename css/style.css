@@ -368,7 +368,11 @@ a{
 @media(max-width:800px)
 {
 
-    
+    .pubgname img{  
+       top:30%;
+       left:8%; 
+       width:80%;
+     }
 
     .homediv{
         margin-top: 5%;
