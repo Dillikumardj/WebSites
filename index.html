@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pubg mobile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="assets/pubgmlogo.png" alt="" class="logo">
+        <div class="nav" id="nav">
+            <ul>
+                <li onclick="closeNav(this)" ><a href="#home" id="nav-home"class="active">Home</a></li>
+                <li onclick="closeNav(this)" ><a href="#rewards" id="nav-reward"class="">Rewards</a></li>
+                <li onclick="closeNav(this)" ><a href="#modes" id="nav-mode"class="">Modes</a></li>
+                <li onclick="closeNav(this)" ><a href="#character" id="nav-character"class="">Character</a></li>
+                <li onclick="closeNav(this)" ><a href="#events" id="nav-event"class="">Events</a></li>
+            </ul>
+        </div>
+        <div class="toggle" id="toggle">
+            <img src="assets/panoutline2.png" alt="" class="pan" onclick="toggle()">
+        </div>
+    </header>
+
+    <section class="home" id="home"  onclick="toggleNav()">
+        <div class="pubgname">
+            <img src="assets/pubgmcolor.png">
+        </div>
+
+        <div class="intro">
+            <p>
+                <span>PUBG MOBILE SEASON 11</span><br>
+                Here are the things that is expected in season 11.The new season is featured 
+                with new royale pass costumes , weapon skins , new girl character, new modes 
+                and much more.
+            </p>
+        </div>
+
+        <div class="homediv">
+            <div class="outfit slideImageRight wpr1">
+                
+                <img src="assets/methics/outfit.png">
+                
+            </div>
+            <div class="m416 slideImageLeft wpl1">
+                <img src="assets/methics/m416.png" class="">
+            </div>
+            <div class="emote slideImageRight wpr2">
+                <video autoplay muted loop class="emotemp4" class="">
+                    <source src="assets/methics/emote.mp4" type="video/mp4">
+                </video> 
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+   <section class="rewards" id="rewards" onclick="toggleNav()">
+        <div class="reward h1"><h1>Rewards of the season</h1></div>
+       <div class="rewardsdiv">
+            <div class="rp">
+                <div class="rpdiv">
+                    <div >
+                        <img src="assets/rewards/rp.jpg" class="slideImageRight wpr3">
+                        <p>Royale Pass Rewards</p>
+                    </div>
+                </div>
+            </div>
+            <div class="season">
+                <div class="seasondiv">
+                    <div>
+                        <img src="assets/rewards/season.jpg" class="slideImageLeft wpl2">
+                        <p>Season Rewards</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="crate">
+                <div class="cratediv">
+                    <div>
+                        <img src="assets/rewards/crate.jpg" class="slideImageRight wpr4">
+                        <p>Crate Rewards</p>
+                    </div>
+                </div>
+            </div>
+       </div>
+   </section>
+
+
+
+
+   
+
+
+   <section class="modes" id="modes" onclick="toggleNav()">
+
+        <div class="mode h1">
+            <h1>New modes of the season</h1>
+        </div>
+
+
+        <div class="modesdiv">
+        
+                <div class="domimg slideImageRight wpr5" >
+                </div>
+                <div class="domp slideImageLeft wpl3">
+                    <p><span>The Domination Mode</span><br><br>
+                        This mode will be played in a new map called town.There willbe to teams -- Red
+                        and Blue with four players in each team.The map consist of three bases.For a particular
+                        duration one base is activated.Both teams need to capture and hold the base for a
+                        time needed to capture it.Unlimited respawn can be made if get killed.There will be one 
+                        round in each base, the team capturing two bases will be the winner.
+                    </p>
+                </div>
+            
+                <div class="payp slideImageRight wpr6">
+                    <p><span>The Payload Mode</span><br><br>
+                        Pubg for a first introduced an aerial combat.The map will be same as erangal but it
+                        contains some cool features like 'Recall','new guns' exclusive to the mode,helicopter,etc.
+                        The map will be added in the arcade section.'Recall' feature enable players to respawn if
+                        their teammates if they are eliminated from the match with one condition that their id should
+                        be recovered from them before 180 seconds.Each player will be provided with an id during the 
+                        start of the match. 
+                        The new guns are rocket launchers,grenade launchers and mini - guns. 
+                    </p>
+                </div>
+                <div class="payimg slideImageLeft wpl4">
+                </div>
+                
+            
+        
+
+        
+                <div class="rageimg  slideImageRight wpr7">
+                
+                </div>
+                <div class="ragep slideImageLeft wpl5">
+                    <p><span>The RageGare Mode</span><br><br>
+                             Get into the action directly is the main idea of the mode.This mode will be
+                             added in the arcade section.The players will be provided  with a car.Players can 
+                             chose their cars before the start of the match.It is team vs team match with each team 
+                             consisting of 6 player.One car will carry two player among them one has to drive and 
+                             shoot with the weapon fitted in the car but he can shoot only the car infront of it and 
+                             another one has to shoot all the cars around them.RPG-7,MGL,M249 are the guns available 
+                             in this mode.
+                    </p>
+                </div>
+
+
+
+            <!--
+                <div class="arenap">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quod quisquam natus, expedita minus hic obcaecati consequuntur quos mollitia
+                        eum consectetur,quaerat architecto. Veniam reprehenderit sed
+                        inventore quia ad neque id!
+                    </p>
+                </div>
+                <div class="arenaimg">
+
+                </div>
+         -->
+        </div>
+   </section>
+
+
+
+    <section class="character" id="character" onclick="toggleNav()">
+        <div class="char h1">
+            <h1>New Character</h1>
+        </div>
+        <div class="sara">
+            <img src="assets/character/sara.png" class="slideImageRight wpr8">
+            <!-- <p class="headsara">SARA</p> -->
+             <p class="sarap"> <span>SARA</span><br>
+                The new character is a female called as sara.She is a proficient driver.Like
+                victor, this character is also upgradable. She will have exceptional driving 
+                skills and she will offer increased resistance to vehicle damage.She excels at
+                reinforcing the vehicles so they take less damage.All this abilities are restricted 
+                to EvoGround modes.To get the sara character players must complete some acheivements.
+                with the completion of each acheivements, some uc vouchers will be provided.If you collect 600uc 
+                you can get the sara character.When you play using sara character you will be provided
+                with some points.With that points you can open a crate that is filled with the costumes,
+                skins and emotes of sara.The items you get from the crate is exclusive to sara
+                so you cannot use it for other characters.Sara also has a winning emote which is awesome.
+                Imagine that you knocked down someone, going infront of them and putting some emote will 
+                great.If you didnot have some good emotes, donot worry sara has some crazy emotes which you 
+                never seen before. Earlier,Victor was the only character with special abilities that allowed
+                us to reload ump to reload fast.But, players are not  happy with the appearance and the special 
+                powers.But sara character is so beautiful and there are some excellent outfits available for Sara
+                in the crates.
+            </p>
+        </div>
+    </section>
+
+
+
+   
+   <section class="events" id="events" onclick="toggleNav()">
+        <div class="event h1"><h1>New Events</h1></div> 
+        <div class="eventsdiv">
+            <div class="sankrati">
+                <img src="assets/events/sankranti.jpg" class="slideImageRight wpr9" alt="">
+                <p class="show">Sankrati Event</p>
+                <p class="ptag"><span>Sankrati Event</span><br>
+                    Event Rules:
+                               1) Complete the daily missions to receive free dice.
+                               2) Roll the dice to proceed to the next levels.
+                               3) Daily mission will fresh every 24 hours.
+                               4) Land on level 120 exactly to get the rewards.
+                               5) If the player is at level 119 and the player gets 3 when he rolls the
+                                  dice, he will be moves to level 118.
+                </p>
+            </div>
+            <div class="winner">
+                <img src="assets/events/winner.jpg" class="slideImageLeft wpl6">
+                <p class="show">Winner Event</p>
+                <p class="ptag"><span>Winner Event</span><br>
+                    Win some real items like a Golden Helmet , AirPods and some gift cards from 
+                    play store and app stores.During the event period, red packets will be droping 
+                    in the lobby. Collect them and open to see the rewards you get.Each day players 
+                    can collect atmost 5 red packets.
+                </p>
+            </div>
+            <div class="diwali">
+                <img src="assets/events/diwali.jpg" class="slideImageRight wpr10">
+                <p class="show">Diwali Event</p>
+                <p class="ptag"><span>Diwali Event</span><br>
+                    This event bring exclusive ingame items and rewards for indian players.This event 
+                    offer comes with daily missions.Players will get diwali sparkles on successful 
+                    completion of the missions.These can be used to burst crackers and
+                    rewards can be obtained.
+                </p>
+            </div>
+        </div> 
+   </section>
+   <footer onclick="toggleNav()">
+         <div class="copy">
+            <p>credits : pubg coporation </p>
+            <p>Copyright dj &#169 2020. All rights reserved.</p>
+         </div>
+         <div class="icons">
+             <ul>
+                 <li><a href="#"><img src="assets/social-media-icons/facebook.png"></a></li>
+                 <li><a href="#"><img src="assets/social-media-icons/instagram.png"></a></li>
+                 <li><a href="#"><img src="assets/social-media-icons/youtube-logotype.png"></a></li>
+                 <li><a href="#"><img src="assets/social-media-icons/discord.png"></a></li>
+                 <li><a href="#"><img src="assets/social-media-icons/twitter-social-logotype.png"></a></li>
+             </ul>
+         </div>
+   </footer>
+</body>
+</html>
