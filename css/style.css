@@ -563,7 +563,7 @@ a{
 
     .season,.crate,.rp{
         width: 90vw;
-        height: 70vh;
+        height: 50vh;
         margin: 0px;
     }
 
@@ -1012,18 +1012,18 @@ a{
 
     .sankrati,.winner,.diwali{
          width:80vw;
-         height: 50vh;
+         height: 30vh;
          margin: 0px 15vw;
          
      }
 
      .sankrati img ,.winner img ,.diwali img{
          width: 80vw;
-         height: 50vh;
+         height: 30vh;
      }
 
      .sankrati:hover .ptag,.winner:hover .ptag,.diwali:hover .ptag{
-    transform: translateY(-60%);
+    transform: translateY(-80%);
 
     }
 }
