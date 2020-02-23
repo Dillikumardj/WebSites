@@ -903,7 +903,7 @@ a{
 .sankrati img ,.winner img ,.diwali img{
     position: absolute;
     z-index: -1;
-    width: calc(1/3*100% - (1 - 1/3) * 43px);
+    width: calc(1/3*100% - (1 - 1/3) * 35px);
     height: 200px;
     
 }
