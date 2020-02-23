@@ -135,6 +135,7 @@ a{
     right: 0px;
     bottom: 8px;
     visibility: visible;
+    user-select:none;
     }
 
 
@@ -144,6 +145,7 @@ a{
     width: 100%;
     height: 100%; 
     user-select:none;
+    -webkit-user-select:none;
 }
 
    .pubgname img{
