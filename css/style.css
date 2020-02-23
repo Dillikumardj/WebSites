@@ -328,7 +328,8 @@ a{
 
 
 .emote::after{
-    content: "Elite Agent Emote";
+    content: "Elite Agent Emote"; 
+    height: fit-content;
     bottom:0px;
     
 }
