@@ -85,7 +85,7 @@ a{
     height: 50px;
     transform: rotate(110deg);
     cursor: pointer;
-    border:0;
+    border:none;
 }
 
 
