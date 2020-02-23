@@ -560,7 +560,7 @@ a{
 
     .season,.crate,.rp{
         width: 70vw;
-        height: 70vh;
+        height: 50vh;
         margin: 0px;
     }
 
@@ -789,7 +789,13 @@ a{
     transform: translateX(-50%);
     color: rgb(207, 14, 182) ;
 }
-
+ 
+    @media(max-width:700px) 
+    {  
+       .sara img{ 
+            height:40vh;
+         }
+     }
 /* end of character */
 
 
@@ -989,14 +995,14 @@ a{
 
     .sankrati,.winner,.diwali{
          width:70vw;
-         height: 60vh;
+         height: 50vh;
          margin: 0px 15vw;
          
      }
 
      .sankrati img ,.winner img ,.diwali img{
          width: 70vw;
-         height: 60vh;
+         height: 50vh;
      }
 }
 
