@@ -8,6 +8,7 @@ body{
     width: 100%;
     padding: 0;
     height: fit-content;
+    overflow-X: hidden;
 }
 
 /* start of header*/
@@ -307,6 +308,7 @@ a{
 {
     content: "Elite Force Set";
     width:100%;
+    height: fit-content;
     display:flex;
     padding: 10px;
     box-sizing: border-box;
@@ -317,19 +319,21 @@ a{
     font-size: 24px;
      color: rgb(133, 20, 118);
     background-color: rgba(255, 255, 255, 0.459);
-    bottom:0px;
-    height:fit-content;
+     bottom:0px;
 }
 
 .m416::after{
     content: "Specter - M416";
-   
+    height: fit-content;
+    width: 100%;
+     bottom:0px;
 }
 
 
 .emote::after{
-    content: "Elite Agent Emote"; 
+    content: "Elite Agent Emote";
     height: fit-content;
+    width: 100%;
     bottom:0px;
     
 }
@@ -351,7 +355,7 @@ a{
     }
     
     .outfit,.m416,.emote{
-        width: 50vw;
+       width: 350px;
         
     }
     
@@ -375,12 +379,11 @@ a{
 }
 
 .pubgname img{
-    width: 65%;
-    height: 65%;
+    width: 75%;
+    height: 75%;
 }
+  
 
-
-    
 }
 
 /* endof home*/
@@ -559,8 +562,8 @@ a{
     }
 
     .season,.crate,.rp{
-        width: 80vw;
-        height: 50vh;
+        width: 90vw;
+        height: 70vh;
         margin: 0px;
     }
 
@@ -697,6 +700,7 @@ a{
     .modesdiv{
         grid-template-columns:repeat(1,1fr);
         grid-template-rows:auto ;
+        padding:0px 10vw ;
     }
 
 
@@ -789,14 +793,26 @@ a{
     transform: translateX(-50%);
     color: rgb(207, 14, 182) ;
 }
- 
-    @media(max-width:700px) 
-    {  
-       .sara img{ 
-            width:50vw;
-            height:50vh;
-         }
-     }
+
+
+@media(max-width:800px)
+{
+    .sara{
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .sara img{
+        width: 50vw;
+        height: 60vh;
+    }
+    .sarap p{
+        margin-right: 0px;
+    }
+    .sara p span {
+        left: 35%;
+    }
+}
+
 /* end of character */
 
 
@@ -1005,6 +1021,11 @@ a{
          width: 80vw;
          height: 50vh;
      }
+
+     .sankrati:hover .ptag,.winner:hover .ptag,.diwali:hover .ptag{
+    transform: translateY(-60%);
+
+    }
 }
 
 
