@@ -451,7 +451,7 @@ a{
     top: 90%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: /*rgb(141, 10, 124)*/ rgb(233, 22, 205);
+    color: /*rgb(141, 10, 124)*/ rgb(194,8,169);
     
 }
 
@@ -922,7 +922,7 @@ a{
     transform: translateY(-90%);
     opacity: .3;
     color: rgba(141, 10, 124, 0.746);
-    background-color:  rgba(255, 255, 255, 0.562);
+    background-color:  rgba(255, 255, 255, 0.78);
     box-sizing: border-box;
     text-align: center;
     font-size: 16px;
