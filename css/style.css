@@ -355,13 +355,13 @@ a{
     }
     
     .outfit,.m416,.emote{
-       width: 350px;
+       width: 70vw;
         
     }
     
 
     .outfit::before,.m416::before,.emote::before{
-        width:50vw;
+        width:70vw;
     }
  
     .toggle{
